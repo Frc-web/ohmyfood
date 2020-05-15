@@ -3,10 +3,10 @@
     height: 243px;
     position: relative;
     &__title {
-        color: $color-secondary;
         font-family: Montserrat, sans-serif;
-        letter-spacing: -4px;
+        color: $color-secondary;
         font-size: 92px;
+        letter-spacing: -4px;
         text-align: center;
         line-height: 243px;
         vertical-align: middle;
