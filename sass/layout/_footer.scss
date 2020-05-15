@@ -1,0 +1,24 @@
+.footer {
+    background: $color-primary;
+    height: 136px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__liseret {
+        background: #a1c181;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    a {
+        color: $color-secondary;
+        font-size: 47px;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 42px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+    }
+}

@@ -5,6 +5,22 @@ html, body {
   font-size: 14px;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn__property {
+  width: 654px;
+  height: 118px;
+  border-radius: 20px;
+  margin-bottom: 84px;
+  background-color: #579c87;
+  font-family: Montserrat, sans-serif;
+  color: #fdcb46;
+  font-size: 47px;
+  border: none;
+}
+
 .header {
   background: #579c87;
   height: 243px;
@@ -38,15 +54,41 @@ html, body {
   margin: auto;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 45.7% 45.7%;
-  grid-column-gap: 8.6%;
+.footer {
+  background: #579c87;
+  height: 136px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__liseret {
+  background: #a1c181;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.footer a {
+  color: #fdcb46;
+  font-size: 47px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 42px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 99px 0 94px;
   border: 2px solid black;
 }
 
 .section {
+  width: 45.7%;
   height: 758px;
   box-shadow: 0 0 10px black;
 }

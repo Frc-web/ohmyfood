@@ -1,13 +1,13 @@
-.grid {
-    display: grid;  
-    grid-template-columns: 45.7% 45.7%;
-    grid-column-gap: 8.6%;
-    // grid-row-gap: 8%;
+.main {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 99px 0 94px;
     border: 2px solid black;
 }
 
 .section {
+    width: 45.7%;
     height: 758px;
     box-shadow: 0 0 10px black;
     &:hover {
