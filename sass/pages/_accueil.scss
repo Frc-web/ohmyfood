@@ -3,68 +3,97 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 99px 0 94px;
-    border: 2px solid black;
 }
 
 .section {
     width: 45.7%;
     height: 758px;
-    box-shadow: 0 0 10px black;
-    &:hover {
-       
-    }
-    h2 {
-        font-size: 43px;
-    }
+    box-shadow: 0 0 25px #d8d8d8;
+    cursor: pointer;
     h1 {
-        font-size: 43px;
+        font-size: 63px;
+        font-weight: normal;
     }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .la_note {
     background: #fcdfdb;
-    font-family: 'Balsamiq Sans', cursive;
     color: #3c1218;
     margin-bottom: 94px;
-    // remplace le grid-row-gap
-    h2 {
-
+    &__music {
+        margin-top: 45px;
+        font-size: 70px;
+        background: -webkit-linear-gradient(290deg, #f04a5e, #f78f6a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    h1 {
-        
+    &__title {
+        font-size: 55px;
+        font-family: Cookie, sans-serif;
+        margin: 5px 0;
+    }
+    &__big_title {
+        font-style: italic;
+        font-family: 'Balsamiq Sans', cursive, sans-serif;
     }
 }
 
 .le_chic {
     background: #fff5fe;
-    h2 {
-
+    &__title {
+        font-family: 'Redressed', cursive, sans-serif;
+        font-size: 55px;
+        margin-bottom: 0;
+        font-weight: normal;
+        background: -webkit-linear-gradient(290deg, #d8852e, #905bfd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    h1 {
+    &__big_title {
         color: #c77412;
     }
 }
 
 .le_delice {
     background: #f9f9f9;
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive, sans-serif;
     font-weight: 300;
-    h2 {
-
+    &__title {
+        font-family: 'Dancing Script', cursive, sans-serif;
+        font-size: 55px;
+        margin-bottom: 20px;
+        padding: 0 5px;
+        background: -webkit-linear-gradient(290deg, #0431df, #1b91fa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    h1 {
+    &__big_title {
         color: #0887fb;
     }
 }
 
 .la_palette {
     background: #fdfffd;
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive, sans-serif;
     font-weight: 300;
-    h2 {
-
+    &__title {
+        font-family: 'Kaushan Script', cursive, sans-serif;
+        font-size: 55px;
+        margin-bottom: 0;
+        font-weight: normal;
+        background: -webkit-linear-gradient(290deg, #3d9339, #bfff7e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    h1 {
+    &__big_title {
         color: #72bf56;
     }
 }

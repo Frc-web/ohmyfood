@@ -1,0 +1,47 @@
+@mixin header_structure {
+    background: $color-primary;
+    height: 243px;
+    position: relative;
+    &__title {
+        font-family: Montserrat, sans-serif;
+        color: $color-secondary;
+        font-size: 92px;
+        letter-spacing: -4px;
+        line-height: 243px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+    }
+    &__liseret {
+        background: #a1c181;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@mixin footer_structure {
+    background: $color-primary;
+    height: 136px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__liseret {
+        background: #a1c181;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    &__link {
+        color: $color-secondary;
+        font-size: 47px;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 42px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+    }
+}

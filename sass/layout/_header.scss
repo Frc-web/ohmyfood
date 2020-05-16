@@ -1,24 +1,5 @@
 .header {
-    background: $color-primary;
-    height: 243px;
-    position: relative;
-    &__title {
-        font-family: Montserrat, sans-serif;
-        color: $color-secondary;
-        font-size: 92px;
-        letter-spacing: -4px;
-        text-align: center;
-        line-height: 243px;
-        vertical-align: middle;
-        margin: 0;
-    }
-    &__liseret {
-        background: #a1c181;
-        height: 2px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
+    @include header_structure;
 }
 
 @media screen and (max-width: 600px) {
