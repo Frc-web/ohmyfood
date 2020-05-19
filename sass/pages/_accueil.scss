@@ -2,21 +2,18 @@
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 99px 0 94px;
+    margin: 99px 0 0 0;
 }
 
-.section {
+.section-accueil {
     width: 45.7%;
     height: 758px;
     box-shadow: 0 0 25px #d8d8d8;
-    cursor: pointer;
-    h1 {
-        font-size: 63px;
-        font-weight: normal;
-    }
+    margin-bottom: 94px;
+    text-decoration: none;
 }
 
-.content {
+.content-affiche {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +21,11 @@
     height: 100%;
 }
 
-.la_note {
-    background: #fcdfdb;
+.la-note {
+    background: $color-la-note;
     color: #3c1218;
-    margin-bottom: 94px;
     &__music {
-        margin-top: 45px;
+        margin-top: 85px;
         font-size: 70px;
         background: -webkit-linear-gradient(290deg, #f04a5e, #f78f6a);
         -webkit-background-clip: text;
@@ -38,62 +34,67 @@
     &__title {
         font-size: 55px;
         font-family: Cookie, sans-serif;
-        margin: 5px 0;
+        margin: 5px 0 0 0;
     }
-    &__big_title {
-        font-style: italic;
-        font-family: 'Balsamiq Sans', cursive, sans-serif;
+    &__big-title {
+        font-family: 'Kalam', cursive;
+        font-size: 63px;
     }
 }
 
-.le_chic {
+.le-chic {
     background: #fff5fe;
     &__title {
         font-family: 'Redressed', cursive, sans-serif;
-        font-size: 55px;
+        font-size: 50px;
         margin-bottom: 0;
-        font-weight: normal;
         background: -webkit-linear-gradient(290deg, #d8852e, #905bfd);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    &__big_title {
+    &__big-title {
         color: #c77412;
+        font-size: 65px;
+        letter-spacing: 5px;
     }
 }
 
-.le_delice {
+.le-delice {
     background: #f9f9f9;
     font-family: 'Kalam', cursive, sans-serif;
-    font-weight: 300;
     &__title {
         font-family: 'Dancing Script', cursive, sans-serif;
-        font-size: 55px;
-        margin-bottom: 20px;
+        font-size: 53px;
+        font-weight: 300;
+        margin-bottom: 10px;
         padding: 0 5px;
         background: -webkit-linear-gradient(290deg, #0431df, #1b91fa);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    &__big_title {
+    &__big-title {
         color: #0887fb;
+        font-size: 65px;
+        font-weight: 300;
     }
 }
 
-.la_palette {
+.la-palette {
     background: #fdfffd;
     font-family: 'Kalam', cursive, sans-serif;
     font-weight: 300;
     &__title {
         font-family: 'Kaushan Script', cursive, sans-serif;
-        font-size: 55px;
-        margin-bottom: 0;
+        font-size: 52px;
+        margin: 80px 0 -20px 0;
         font-weight: normal;
-        background: -webkit-linear-gradient(290deg, #3d9339, #bfff7e);
+        background: -webkit-linear-gradient(320deg, #3d9339, #bfff7e);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    &__big_title {
+    &__big-title {
         color: #72bf56;
+        font-size: 64px;
+        font-weight: 300;
     }
 }

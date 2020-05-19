@@ -1,6 +1,26 @@
 .header {
-    @include header_structure;
+    background: $color-primary;
+    &__title {
+        font-family: $font-primary;
+        color: $color-secondary;
+        font-size: 92px;
+        letter-spacing: -4px;
+        line-height: 243px;
+        text-align: center;
+        margin: 0;
+    }
+    &__liseret {
+        background: #a1c181;
+        height: 2px;
+        width: 100%;
+    }
 }
+
+.link-return-accueil {
+    text-decoration: none;
+    color: $color-secondary;
+}
+
 
 @media screen and (max-width: 600px) {
     .header {

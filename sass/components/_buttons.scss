@@ -1,15 +1,13 @@
 .btn {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     &__property {
         width: 654px;
         height: 118px;
         border-radius: 20px;
         margin-bottom: 84px;
         background-color: $color-primary;
-        font-family: Montserrat, sans-serif;
+        font-family: $font-primary;
         color: $color-secondary;
         font-size: 47px;
-        border: none;
     }
 }

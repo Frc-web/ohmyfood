@@ -1,0 +1,83 @@
+.menu-la-note {
+    width: 100%;
+    background: $color-la-note;
+    color: #3c1218;
+    margin-bottom: 135px;
+}
+
+.head-la-note {
+    text-align: center;
+    font-family: Cookie, sans-serif;
+    &__music {
+        font-size: 115px;
+        background: -webkit-linear-gradient(290deg, #f04a5e, #f78f6a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 95px 0 0px;
+    }   
+    &__title {
+        font-size: 75px;
+        margin: 0;
+    }
+}
+
+.carte-la-note {
+    width: 78.9%;
+    margin: auto;
+    font-family: 'Kalam', cursive;
+    section:first-of-type {
+        margin-top: 60px;
+    }
+}
+
+.section-la-note {
+    margin-top: 85px;
+    h3 {
+        font-size: 40px;
+    }
+}
+
+.la-note-separation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 32%;
+    }
+    h3 {
+        margin: 0;
+    }  
+}
+
+.menu-dispo {
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 29px;
+    display: flex;
+    justify-content: space-between;     
+    &__prices {
+        font-weight: bold
+    }
+}
+
+.foot-la-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cookie, sans-serif;
+  padding: 80px 0;
+  &__music {
+      display: inline-block;
+      margin: 0;
+      font-size: 65px;
+      margin-right: 15px;
+      background: -webkit-linear-gradient(290deg, #f04a5e, #f78f6a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+  &__title {
+      display: inline-block;
+      margin: 0;
+      font-size: 65px;
+  }
+}

@@ -1,3 +1,26 @@
 .footer {
-    @include footer_structure;
+    background: $color-primary;
+    height: 136px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__liseret {
+        background: #a1c181;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    &__link {
+        color: $color-secondary;
+        font-size: 47px;
+        text-decoration: none;
+        margin: 0 42px;
+        font-family: $font-primary;
+        font-weight: 500;
+    }
 }
