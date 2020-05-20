@@ -1,0 +1,93 @@
+.menu-le-chic {
+    width: 100%;
+    background: $color-background-le-chic;
+    margin-bottom: 135px;
+    box-shadow: 0 0 25px #d8d8d8;
+}
+
+.head-le-chic-title {
+    text-align: center;
+    font-family: 'Redressed', cursive, sans-serif;
+    font-size: 72px;
+    letter-spacing: 3px;
+    padding-top: 160px;
+    background: -webkit-linear-gradient(290deg, #ff9914 50%, #8f5bfe 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.carte-le-chic {
+    width: 78.9%;
+    margin: auto;
+    section:first-of-type {
+        margin-top: 170px;
+    }
+}
+
+.section-le-chic {
+    margin-top: 85px;
+    h3 {
+        font-size: 33px;
+        letter-spacing: 3px;
+    }
+}
+
+.le-chic-separation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 116%;
+    margin: 0 0 27px -8%;
+    img {
+        width: 29%;
+    }
+    h3 {
+        margin: 0;
+    }  
+}
+
+.orange-dark {
+    color: #c77412;
+}
+
+.orange {
+    color: #e08514;
+}
+
+.pink-dark {
+    color: #a56799;
+}
+
+.pink {
+    color: #bc8bb2
+}
+
+.purple-dark {
+    color: #6e4ccc;
+}
+
+.purple {
+    color: #9276d9;
+    padding-bottom: 230px;
+}
+
+.menu-dispo {
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 29px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    &__choices {
+    
+    }
+    &__prices {
+      font-weight: normal;
+      font-size: 29px;
+      margin: 0;
+    }
+}
+
+
+

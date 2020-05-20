@@ -22,7 +22,7 @@
 }
 
 .la-note {
-    background: $color-la-note;
+    background: $color-background-la-note;
     color: #3c1218;
     &__music {
         margin-top: 85px;
@@ -43,12 +43,13 @@
 }
 
 .le-chic {
-    background: #fff5fe;
+    background: $color-background-le-chic;
     &__title {
         font-family: 'Redressed', cursive, sans-serif;
-        font-size: 50px;
+        font-size: 45px;
+        letter-spacing: 3px;
         margin-bottom: 0;
-        background: -webkit-linear-gradient(290deg, #d8852e, #905bfd);
+        background: -webkit-linear-gradient(290deg, #ff9914, #8f5bfe);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
