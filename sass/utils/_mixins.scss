@@ -1,7 +1,23 @@
-@mixin restaurant-title {
-    font-size: 55px;
-    text-align: center;
-    font-family: $font-primary;
-    color: #353535;
-    margin: 100px 0 55px;
+@mixin color-la-note-music {
+    background: -webkit-linear-gradient(290deg, #f04a5e, #f78f6a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-le-chic-title {
+    background: -webkit-linear-gradient(290deg, #d8852e 50%, #905bfd 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-le-delice-title {
+    background: -webkit-linear-gradient(290deg, #0431df 50%, #1b91fa 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-la-palette-title {
+    background: -webkit-linear-gradient(290deg, #3d9339 40%, #bfff7e 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

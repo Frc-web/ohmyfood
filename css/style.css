@@ -122,11 +122,11 @@ html, body {
 }
 .la-note__title {
   font-size: 55px;
-  font-family: Cookie, sans-serif;
+  font-family: "Cookie", cursive, sans-serif;
   margin: 5px 0 0 0;
 }
 .la-note__big-title {
-  font-family: "Kalam", cursive;
+  font-family: "Kalam", cursive, sans-serif;
   font-size: 63px;
 }
 
@@ -138,7 +138,7 @@ html, body {
   font-size: 45px;
   letter-spacing: 3px;
   margin-bottom: 0;
-  background: -webkit-linear-gradient(290deg, #ff9914, #8f5bfe);
+  background: -webkit-linear-gradient(290deg, #d8852e 50%, #905bfd 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -150,7 +150,6 @@ html, body {
 
 .le-delice {
   background: #f9f9f9;
-  font-family: "Kalam", cursive, sans-serif;
 }
 .le-delice__title {
   font-family: "Dancing Script", cursive, sans-serif;
@@ -158,11 +157,12 @@ html, body {
   font-weight: 300;
   margin-bottom: 10px;
   padding: 0 5px;
-  background: -webkit-linear-gradient(290deg, #0431df, #1b91fa);
+  background: -webkit-linear-gradient(290deg, #0431df 50%, #1b91fa 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .le-delice__big-title {
+  font-family: "Kalam", cursive, sans-serif;
   color: #0887fb;
   font-size: 65px;
   font-weight: 300;
@@ -170,7 +170,6 @@ html, body {
 
 .la-palette {
   background: #fdfffd;
-  font-family: "Kalam", cursive, sans-serif;
   font-weight: 300;
 }
 .la-palette__title {
@@ -178,11 +177,12 @@ html, body {
   font-size: 52px;
   margin: 80px 0 -20px 0;
   font-weight: normal;
-  background: -webkit-linear-gradient(320deg, #3d9339, #bfff7e);
+  background: -webkit-linear-gradient(290deg, #3d9339 40%, #bfff7e 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .la-palette__big-title {
+  font-family: "Kalam", cursive, sans-serif;
   color: #72bf56;
   font-size: 64px;
   font-weight: 300;
@@ -198,7 +198,7 @@ html, body {
 
 .head-la-note {
   text-align: center;
-  font-family: Cookie, sans-serif;
+  font-family: "Cookie", cursive, sans-serif;
 }
 .head-la-note__music {
   font-size: 115px;
@@ -215,7 +215,7 @@ html, body {
 .carte-la-note {
   width: 78.9%;
   margin: auto;
-  font-family: "Kalam", cursive;
+  font-family: "Kalam", cursive, sans-serif;
 }
 .carte-la-note section:first-of-type {
   margin-top: 60px;
@@ -247,7 +247,7 @@ html, body {
   display: flex;
   justify-content: space-between;
 }
-.menu-dispo__prices {
+.menu-dispo__prices-la-note {
   font-weight: bold;
 }
 
@@ -255,7 +255,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Cookie, sans-serif;
+  font-family: "Cookie", cursive, sans-serif;
   padding: 80px 0;
 }
 .foot-la-note__music {
@@ -284,7 +284,7 @@ html, body {
   font-size: 72px;
   letter-spacing: 3px;
   padding-top: 160px;
-  background: -webkit-linear-gradient(290deg, #ff9914 50%, #8f5bfe 70%);
+  background: -webkit-linear-gradient(290deg, #d8852e 50%, #905bfd 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -352,10 +352,153 @@ html, body {
   justify-content: space-between;
   align-items: center;
 }
-.menu-dispo__prices {
+.menu-dispo__prices-le-chic {
   font-weight: normal;
   font-size: 29px;
   margin: 0;
+}
+
+.menu-le-delice {
+  width: 100%;
+  background: #f9f9f9;
+  margin-bottom: 135px;
+  box-shadow: 0 0 25px #d8d8d8;
+}
+
+.head-le-delice-title {
+  text-align: center;
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-size: 103px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-top: 160px;
+  background: -webkit-linear-gradient(290deg, #0431df 50%, #1b91fa 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carte-le-delice {
+  width: 78.9%;
+  margin: auto;
+  font-family: "Kalam", cursive, sans-serif;
+}
+.carte-le-delice section:first-of-type {
+  margin-top: 125px;
+}
+
+.section-le-delice {
+  margin-top: 40px;
+}
+.section-le-delice h3 {
+  font-size: 33px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.le-delice-separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 116%;
+  margin: 0 0 27px -8%;
+}
+.le-delice-separation img {
+  width: 29%;
+}
+.le-delice-separation h3 {
+  margin: 0;
+}
+
+.menu-dispo {
+  font-weight: 300;
+  line-height: 35px;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-dispo__prices-le-delice {
+  font-weight: 300;
+  font-size: 39px;
+  margin: 0;
+}
+.menu-dispo__prices-le-delice p {
+  margin: 29px 0;
+}
+
+.last {
+  padding-bottom: 270px;
+}
+
+.menu-la-palette {
+  width: 100%;
+  background: #fdfffd;
+  margin-bottom: 135px;
+  box-shadow: 0 0 25px #d8d8d8;
+}
+
+.head-la-palette-title {
+  text-align: center;
+  font-family: "Kaushan Script", cursive, sans-serif;
+  font-size: 108px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-top: 130px;
+  background: -webkit-linear-gradient(290deg, #3d9339 40%, #bfff7e 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carte-la-palette {
+  width: 78.9%;
+  margin: auto;
+  font-family: "Kalam", cursive, sans-serif;
+}
+.carte-la-palette section:first-of-type {
+  margin-top: 125px;
+}
+
+.section-la-palette {
+  margin-top: 40px;
+}
+.section-la-palette h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.la-palette-separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 116%;
+  margin: 0 0 27px -8%;
+}
+.la-palette-separation img {
+  width: 36%;
+}
+.la-palette-separation h3 {
+  margin: 0;
+}
+
+.menu-dispo {
+  font-weight: 300;
+  line-height: 35px;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-dispo__prices-la-palette {
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0;
+}
+.menu-dispo__prices-la-palette p {
+  margin: 28px 0;
+}
+
+.last {
+  padding-bottom: 270px;
 }
 
 /*# sourceMappingURL=style.css.map */

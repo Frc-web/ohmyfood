@@ -1,37 +1,39 @@
-.menu-le-chic {
+.menu-le-delice {
     width: 100%;
-    background: $color-background-le-chic;
+    background: $color-background-le-delice;
     margin-bottom: 135px;
     box-shadow: $box-shadow;
 }
 
-.head-le-chic-title {
+.head-le-delice-title {
     text-align: center;
-    font-family: $font-primary-le-chic;
-    font-size: 72px;
+    font-family: $font-primary-le-delice;
+    font-size: 103px;
+    font-weight: normal;
     letter-spacing: 3px;
     padding-top: 160px;
-    @include color-le-chic-title;
-
+    @include color-le-delice-title;
 }
 
-.carte-le-chic {
+.carte-le-delice {
     width: 78.9%;
     margin: auto;
+    font-family: $font-secondary-la-note-le-delice-la-palette;
     section:first-of-type {
-        margin-top: 170px;
+        margin-top: 125px;
     }
 }
 
-.section-le-chic {
-    margin-top: 85px;
+.section-le-delice {
+    margin-top: 40px;
     h3 {
         font-size: 33px;
         letter-spacing: 3px;
+        font-weight: 300;
     }
 }
 
-.le-chic-separation {
+.le-delice-separation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,43 +47,25 @@
     }  
 }
 
-.orange-dark {
-    color: #c77412;
-}
-
-.orange {
-    color: #e08514;
-}
-
-.pink-dark {
-    color: #a56799;
-}
-
-.pink {
-    color: #bc8bb2
-}
-
-.purple-dark {
-    color: #6e4ccc;
-}
-
-.purple {
-    color: #9276d9;
-    padding-bottom: 230px;
-}
-
 .menu-dispo {
     font-weight: 300;
     line-height: 35px;
-    font-size: 29px;
+    font-size: 28px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    &__prices-le-chic {
-      font-weight: normal;
-      font-size: 29px;
+    &__prices-le-delice {
+      font-weight: 300;
+      font-size: 39px;
       margin: 0;
+      p {
+          margin: 29px 0;
+      }
     }
+}
+
+.last {
+    padding-bottom: 270px;
 }
 
 

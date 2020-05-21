@@ -1,0 +1,68 @@
+.menu-la-palette {
+    width: 100%;
+    background: $color-background-la-palette;
+    margin-bottom: 135px;
+    box-shadow: $box-shadow;
+}
+
+.head-la-palette-title {
+    text-align: center;
+    font-family: $font-primary-la-palette;
+    font-size: 108px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding-top: 130px;
+    @include color-la-palette-title;
+}
+
+.carte-la-palette {
+    width: 78.9%;
+    margin: auto;
+    font-family: $font-secondary-la-note-le-delice-la-palette;
+    section:first-of-type {
+        margin-top: 125px;
+    }
+}
+
+.section-la-palette {
+    margin-top: 40px;
+    h3 {
+        font-size: 33px;
+        font-weight: 300;
+    }
+}
+
+.la-palette-separation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 116%;
+    margin: 0 0 27px -8%;
+    img {
+        width: 36%;
+    }
+    h3 {
+        margin: 0;
+    }  
+}
+
+.menu-dispo {
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    &__prices-la-palette {
+      font-weight: 300;
+      font-size: 35px;
+      margin: 0;
+      p {
+          margin: 28px 0;
+      }
+    }
+}
+
+.last {
+    padding-bottom: 270px;
+}
