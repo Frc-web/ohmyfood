@@ -1,21 +1,58 @@
+@keyframes points {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: skewX(0);
+  }
+}
 html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0 0 69px 0;
 }
 
-.btn {
-  text-align: center;
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
-.btn__property {
-  width: 654px;
-  height: 118px;
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
-  margin-bottom: 84px;
   background-color: #579c87;
-  font-family: Montserrat, sans-serif;
+  width: 40%;
+  height: 118px;
   color: #fdcb46;
+  padding: 0 25px;
+  margin-bottom: 84px;
+}
+.btn__title {
+  font-family: Montserrat, sans-serif;
   font-size: 47px;
+}
+.btn__load {
+  width: 8%;
+  font-size: 70px;
+  display: flex;
+  margin: 0 0 0 15px;
+}
+.btn__load__point {
+  height: 100%;
+  margin-bottom: 13px;
+  animation: points 1500ms backwards infinite;
+  animation-direction: alternate;
+}
+.btn__load__point--1 {
+  animation-delay: 300ms;
+}
+.btn__load__point--2 {
+  animation-delay: 600ms;
+}
+.btn__load__point--3 {
+  animation-delay: 900ms;
 }
 
 .restaurant-title {
@@ -24,6 +61,39 @@ html, body {
   font-family: Montserrat, sans-serif;
   color: #353535;
   margin: 100px 0 55px;
+}
+
+.underline-anim__title:hover + .underline-anim__progress {
+  transform: scaleX(1);
+}
+
+.underline-anim__progress {
+  border-bottom: 2px solid black;
+  margin-top: -15px;
+  border-radius: 30%;
+  transform: scaleX(0);
+  transition: transform 1000ms;
+  transform-origin: left;
+}
+
+.up-note {
+  border-bottom: 3px solid #3c1218;
+  margin-top: -15px;
+}
+
+.up-chic-orange {
+  border-bottom: 3px solid #c77412;
+  margin-top: 0;
+}
+
+.up-chic-pink {
+  border-bottom: 3px solid #a56799;
+  margin-top: 0;
+}
+
+.up-chic-purple {
+  border-bottom: 3px solid #6e4ccc;
+  margin-top: 0;
 }
 
 .header {
@@ -69,6 +139,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 .footer__liseret {
   background: #a1c181;
@@ -107,6 +178,11 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  transition: transform 450ms;
+}
+.content-affiche:hover {
+  transform: scale(1.12);
+  opacity: 0.6;
 }
 
 .la-note {
@@ -313,7 +389,7 @@ html, body {
   margin: 0 0 27px -8%;
 }
 .le-chic-separation img {
-  width: 29%;
+  width: 28.5%;
 }
 .le-chic-separation h3 {
   margin: 0;

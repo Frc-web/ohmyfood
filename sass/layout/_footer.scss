@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
     &__liseret {
         background: #a1c181;
         height: 2px;

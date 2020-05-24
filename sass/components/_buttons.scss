@@ -1,13 +1,45 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
-    text-align: center;
-    &__property {
-        width: 654px;
-        height: 118px;
-        border-radius: 20px;
-        margin-bottom: 84px;
-        background-color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: $color-primary;
+    width: 40%;
+    height: 118px;
+    color: $color-secondary;
+    padding: 0 25px;
+    margin-bottom: 84px;
+    &__title {
         font-family: $font-primary;
-        color: $color-secondary;
         font-size: 47px;
     }
+    &__load {
+        width: 8%;
+        font-size: 70px;
+        display: flex;
+        margin: 0 0 0 15px;
+        &__point {
+            height: 100%;
+            margin-bottom: 13px;
+            animation: points $anim-dur backwards infinite;
+            animation-direction: alternate;
+            @for $i from 1 through 3 {
+                &--#{$i} {
+                    animation-delay: $anim-delay * $i;
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
