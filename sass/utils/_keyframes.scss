@@ -8,3 +8,12 @@
         transform: skewX(0);
     }
 }
+
+@keyframes footshake {
+    25% {
+        transform: translateX(2%);
+    }
+    75% {
+        transform: translateX(-2%);
+    }
+}

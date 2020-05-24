@@ -23,5 +23,9 @@
         margin: 0 42px;
         font-family: $font-primary;
         font-weight: 500;
+        &:hover {
+            animation: footshake 100ms cubic-bezier(.4,.1,.6,.9);
+            animation-iteration-count: 2;
+        }
     }
 }
