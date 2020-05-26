@@ -1,23 +1,15 @@
 .menu-le-chic {
-    width: 100%;
     background: $color-background-le-chic;
-    margin-bottom: 135px;
-    box-shadow: $box-shadow;
 }
 
 .head-le-chic-title {
-    text-align: center;
     font-family: $font-primary-le-chic;
     font-size: 72px;
-    letter-spacing: 3px;
     padding-top: 160px;
     @include color-le-chic-title;
-
 }
 
 .carte-le-chic {
-    width: 78.9%;
-    margin: auto;
     section:first-of-type {
         margin-top: 170px;
     }
@@ -32,11 +24,8 @@
 }
 
 .le-chic-separation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 116%;
-    margin: 0 0 27px -8%;
+    margin: 0 0 40px -8%;
     img {
         width: 28.5%;
     }
@@ -70,19 +59,7 @@
     padding-bottom: 230px;
 }
 
-.menu-dispo {
-    font-weight: 300;
-    line-height: 35px;
-    font-size: 29px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    &__prices-le-chic {
-      font-weight: normal;
-      font-size: 29px;
-      margin: 0;
-    }
-}
-
-
-
+.menu-dispo__prices-le-chic {
+    font-weight: normal;
+    font-size: 32px;
+  }

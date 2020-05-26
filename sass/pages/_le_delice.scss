@@ -1,23 +1,16 @@
 .menu-le-delice {
-    width: 100%;
     background: $color-background-le-delice;
-    margin-bottom: 135px;
-    box-shadow: $box-shadow;
 }
 
 .head-le-delice-title {
-    text-align: center;
     font-family: $font-primary-le-delice;
     font-size: 103px;
     font-weight: normal;
-    letter-spacing: 3px;
     padding-top: 160px;
     @include color-le-delice-title;
 }
 
 .carte-le-delice {
-    width: 78.9%;
-    margin: auto;
     font-family: $font-secondary-la-note-le-delice-la-palette;
     section:first-of-type {
         margin-top: 125px;
@@ -34,11 +27,8 @@
 }
 
 .le-delice-separation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 116%;
-    margin: 0 0 27px -8%;
+    margin: 70px 0 40px -8%;
     img {
         width: 29%;
     }
@@ -47,22 +37,10 @@
     }  
 }
 
-.menu-dispo {
+.menu-dispo__prices-le-delice {
     font-weight: 300;
-    line-height: 35px;
-    font-size: 28px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    &__prices-le-delice {
-      font-weight: 300;
-      font-size: 39px;
-      margin: 0;
-      p {
-          margin: 29px 0;
-      }
-    }
-}
+    font-size: 35px;
+  }
 
 .last {
     padding-bottom: 270px;

@@ -1,9 +1,6 @@
 .menu-la-note {
-    width: 100%;
     background: $color-background-la-note;
     color: $color-la-note;
-    margin-bottom: 135px;
-    box-shadow: $box-shadow;
 }
 
 .head-la-note {
@@ -21,8 +18,6 @@
 }
 
 .carte-la-note {
-    width: 78.9%;
-    margin: auto;
     font-family: $font-secondary-la-note-le-delice-la-palette;
     section:first-of-type {
         margin-top: 60px;
@@ -37,9 +32,7 @@
 }
 
 .la-note-separation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-bottom: 30px;
     img {
         width: 32%;
     }
@@ -48,16 +41,8 @@
     }  
 }
 
-.menu-dispo {
-    font-weight: 300;
-    line-height: 35px;
-    font-size: 29px;
-    display: flex;
-    justify-content: space-between;     
-    &__prices-la-note {
-        font-weight: bold
-
-    }
+.menu-dispo__prices-la-note {
+    font-weight: bold
 }
 
 .foot-la-note {

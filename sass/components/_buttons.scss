@@ -26,11 +26,11 @@
         &__point {
             height: 100%;
             margin-bottom: 13px;
-            animation: points $anim-dur backwards infinite;
+            animation: points 1500ms infinite;
             animation-direction: alternate;
             @for $i from 1 through 3 {
                 &--#{$i} {
-                    animation-delay: $anim-delay * $i;
+                    animation-delay: 300ms * $i;
                 }
             }
         }

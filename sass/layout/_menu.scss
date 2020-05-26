@@ -1,0 +1,28 @@
+.menu-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu{
+    width: 100%;
+    margin-bottom: 135px;
+    box-shadow: $box-shadow;
+  }
+  
+  .menu-dispo {
+    font-weight: 300;
+    font-size: 29px; 
+    &__choices {
+      margin: 10px;
+    }
+}
+
+.le-chic-choices {
+  line-height: 46px;
+}
+
+.prices{
+  margin: 0;
+}
+

@@ -1,19 +1,19 @@
 
 @keyframes points {
     0% {
-        transform: scaleX(0);
+        opacity: 0;
         
     }
     100% {
-        transform: skewX(0);
+        opacity: 1;
     }
 }
 
 @keyframes footshake {
     25% {
-        transform: translateX(2%);
+        transform: rotate(5deg);
     }
     75% {
-        transform: translateX(-2%);
+        transform: rotate(-5deg);
     }
 }

@@ -1,17 +1,17 @@
 @keyframes points {
   0% {
-    transform: scaleX(0);
+    opacity: 0;
   }
   100% {
-    transform: skewX(0);
+    opacity: 1;
   }
 }
 @keyframes footshake {
   25% {
-    transform: translateX(2%);
+    transform: rotate(5deg);
   }
   75% {
-    transform: translateX(-2%);
+    transform: rotate(-5deg);
   }
 }
 html, body {
@@ -50,7 +50,7 @@ html, body {
 .btn__load__point {
   height: 100%;
   margin-bottom: 13px;
-  animation: points 1500ms backwards infinite;
+  animation: points 1500ms infinite;
   animation-direction: alternate;
 }
 .btn__load__point--1 {
@@ -169,6 +169,50 @@ html, body {
   animation-iteration-count: 2;
 }
 
+.menu-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  margin-bottom: 135px;
+  box-shadow: 0 0 25px #d8d8d8;
+}
+
+.menu-dispo {
+  font-weight: 300;
+  font-size: 29px;
+}
+.menu-dispo__choices {
+  margin: 10px;
+}
+
+.le-chic-choices {
+  line-height: 46px;
+}
+
+.prices {
+  margin: 0;
+}
+
+.carte {
+  width: 78.9%;
+  margin: auto;
+}
+
+.head-title {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -258,11 +302,11 @@ html, body {
 
 .la-palette {
   background: #fdfffd;
-  font-weight: 300;
 }
 .la-palette__title {
   font-family: "Kaushan Script", cursive, sans-serif;
   font-size: 52px;
+  font-weight: 300;
   margin: 80px 0 -20px 0;
   font-weight: normal;
   background: -webkit-linear-gradient(290deg, #3d9339 40%, #bfff7e 70%);
@@ -277,11 +321,8 @@ html, body {
 }
 
 .menu-la-note {
-  width: 100%;
   background: #fcdfdb;
   color: #3c1218;
-  margin-bottom: 135px;
-  box-shadow: 0 0 25px #d8d8d8;
 }
 
 .head-la-note {
@@ -301,8 +342,6 @@ html, body {
 }
 
 .carte-la-note {
-  width: 78.9%;
-  margin: auto;
   font-family: "Kalam", cursive, sans-serif;
 }
 .carte-la-note section:first-of-type {
@@ -317,9 +356,7 @@ html, body {
 }
 
 .la-note-separation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-bottom: 30px;
 }
 .la-note-separation img {
   width: 32%;
@@ -328,13 +365,6 @@ html, body {
   margin: 0;
 }
 
-.menu-dispo {
-  font-weight: 300;
-  line-height: 35px;
-  font-size: 29px;
-  display: flex;
-  justify-content: space-between;
-}
 .menu-dispo__prices-la-note {
   font-weight: bold;
 }
@@ -360,27 +390,18 @@ html, body {
 }
 
 .menu-le-chic {
-  width: 100%;
   background: #fff5fe;
-  margin-bottom: 135px;
-  box-shadow: 0 0 25px #d8d8d8;
 }
 
 .head-le-chic-title {
-  text-align: center;
   font-family: "Redressed", cursive, sans-serif;
   font-size: 72px;
-  letter-spacing: 3px;
   padding-top: 160px;
   background: -webkit-linear-gradient(290deg, #d8852e 50%, #905bfd 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.carte-le-chic {
-  width: 78.9%;
-  margin: auto;
-}
 .carte-le-chic section:first-of-type {
   margin-top: 170px;
 }
@@ -394,11 +415,8 @@ html, body {
 }
 
 .le-chic-separation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 116%;
-  margin: 0 0 27px -8%;
+  margin: 0 0 40px -8%;
 }
 .le-chic-separation img {
   width: 28.5%;
@@ -432,33 +450,19 @@ html, body {
   padding-bottom: 230px;
 }
 
-.menu-dispo {
-  font-weight: 300;
-  line-height: 35px;
-  font-size: 29px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .menu-dispo__prices-le-chic {
   font-weight: normal;
-  font-size: 29px;
-  margin: 0;
+  font-size: 32px;
 }
 
 .menu-le-delice {
-  width: 100%;
   background: #f9f9f9;
-  margin-bottom: 135px;
-  box-shadow: 0 0 25px #d8d8d8;
 }
 
 .head-le-delice-title {
-  text-align: center;
   font-family: "Dancing Script", cursive, sans-serif;
   font-size: 103px;
   font-weight: normal;
-  letter-spacing: 3px;
   padding-top: 160px;
   background: -webkit-linear-gradient(290deg, #0431df 50%, #1b91fa 70%);
   -webkit-background-clip: text;
@@ -466,8 +470,6 @@ html, body {
 }
 
 .carte-le-delice {
-  width: 78.9%;
-  margin: auto;
   font-family: "Kalam", cursive, sans-serif;
 }
 .carte-le-delice section:first-of-type {
@@ -484,11 +486,8 @@ html, body {
 }
 
 .le-delice-separation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 116%;
-  margin: 0 0 27px -8%;
+  margin: 70px 0 40px -8%;
 }
 .le-delice-separation img {
   width: 29%;
@@ -497,21 +496,9 @@ html, body {
   margin: 0;
 }
 
-.menu-dispo {
-  font-weight: 300;
-  line-height: 35px;
-  font-size: 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .menu-dispo__prices-le-delice {
   font-weight: 300;
-  font-size: 39px;
-  margin: 0;
-}
-.menu-dispo__prices-le-delice p {
-  margin: 29px 0;
+  font-size: 35px;
 }
 
 .last {
@@ -519,18 +506,13 @@ html, body {
 }
 
 .menu-la-palette {
-  width: 100%;
   background: #fdfffd;
-  margin-bottom: 135px;
-  box-shadow: 0 0 25px #d8d8d8;
 }
 
 .head-la-palette-title {
-  text-align: center;
   font-family: "Kaushan Script", cursive, sans-serif;
   font-size: 108px;
   font-weight: normal;
-  letter-spacing: 3px;
   padding-top: 130px;
   background: -webkit-linear-gradient(290deg, #3d9339 40%, #bfff7e 70%);
   -webkit-background-clip: text;
@@ -538,8 +520,6 @@ html, body {
 }
 
 .carte-la-palette {
-  width: 78.9%;
-  margin: auto;
   font-family: "Kalam", cursive, sans-serif;
 }
 .carte-la-palette section:first-of-type {
@@ -555,11 +535,8 @@ html, body {
 }
 
 .la-palette-separation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 116%;
-  margin: 0 0 27px -8%;
+  margin: 60px 0 40px -8%;
 }
 .la-palette-separation img {
   width: 36%;
@@ -568,21 +545,9 @@ html, body {
   margin: 0;
 }
 
-.menu-dispo {
-  font-weight: 300;
-  line-height: 35px;
-  font-size: 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .menu-dispo__prices-la-palette {
   font-weight: 300;
   font-size: 35px;
-  margin: 0;
-}
-.menu-dispo__prices-la-palette p {
-  margin: 28px 0;
 }
 
 .last {
