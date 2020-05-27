@@ -38,6 +38,33 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .btn {
+        width: 70%;
+        margin-bottom: 184px;
+        &__title {
+            font-size: 37px;
+        }
+        &__load {
+            font-size: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btn {
+        width: 70%;
+        margin-bottom: 184px;
+        &__title {
+            font-size: 27px;
+        }
+        &__load {
+            font-size: 40px;
+        }
+    }
+}
+
+
 
 
 
