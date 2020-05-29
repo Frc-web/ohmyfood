@@ -3,3 +3,8 @@
     margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+    .container-menu {
+        width: 100%;
+    }
+}

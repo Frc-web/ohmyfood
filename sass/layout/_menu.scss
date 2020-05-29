@@ -1,3 +1,8 @@
+.carte {
+    width: 78.9%;
+    margin: auto;
+}
+
 .menu-cont {
     display: flex;
     justify-content: space-between;
@@ -9,6 +14,12 @@
     margin-bottom: 135px;
     box-shadow: $box-shadow;
   }
+
+  .separation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
   
   .menu-dispo {
     font-weight: 300;
@@ -23,6 +34,19 @@
 }
 
 .prices{
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 
+@media screen and (max-width: 700px) {
+  .menu-cont {
+    flex-direction: column;
+  }
+}
+
+.menu-dispo p {
+  font-size: 22px;
+}
+
+.prices{
+  margin: 0 0 20px 20px;
+}

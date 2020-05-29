@@ -5,3 +5,15 @@
     color: #353535;
     margin: 100px 0 55px;
 }
+
+@media screen and (max-width: 700px) {
+    .restaurant-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .restaurant-title {
+        font-size: 30px;
+    }
+}

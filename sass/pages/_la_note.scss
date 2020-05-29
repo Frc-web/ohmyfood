@@ -26,23 +26,22 @@
 
 .section-la-note {
     margin-top: 85px;
-    h3 {
-        font-size: 40px;
-    }
 }
 
 .la-note-separation {
     margin-bottom: 30px;
+    text-align: center;
     img {
         width: 32%;
     }
     h3 {
+        font-size: 40px;
         margin: 0;
     }  
 }
 
 .menu-dispo__prices-la-note {
-    font-weight: bold
+    font-weight: bold;
 }
 
 .foot-la-note {
@@ -62,3 +61,84 @@
       font-size: 65px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+    .la-note-separation {
+        img {
+            width: 30%;
+        }
+        h3 {
+            font-size: 35px;
+        }  
+    }
+    
+    .foot-la-note {
+      &__music {
+          font-size: 65px;
+      }
+      &__title {
+          font-size: 65px;
+      }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .head-la-note {
+        &__music {
+            font-size: 85px;
+        }   
+        &__title {
+            font-size: 55px;
+        }
+    }
+    
+    .la-note-separation {
+        img {
+            width: 20%;
+        }
+        h3 {
+            font-size: 30px;
+        }  
+    }
+    
+    .foot-la-note {
+      &__music {
+          font-size: 45px;
+      }
+      &__title {
+          font-size: 45px;
+      }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .head-la-note {
+        &__music {
+            font-size: 65px;
+        }   
+        &__title {
+            font-size: 45px;
+        }
+    }
+    
+    .la-note-separation {
+        img {
+            width: 0%;
+        }
+        h3 {
+            font-size: 30px;
+        }  
+    }
+    
+    .foot-la-note {
+        flex-direction: column;
+      &__music {
+          font-size: 45px;
+      }
+      &__title {
+          font-size: 45px;
+      }
+    }
+}
+
+

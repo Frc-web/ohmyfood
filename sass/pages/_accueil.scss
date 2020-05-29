@@ -35,13 +35,13 @@
         @include color-la-note-music;
     }
     &__title {
-        font-size: 55px;
+        font-size: 54px;
         font-family: $font-primary-la-note;
         margin: 5px 0 0 0;
     }
     &__big-title {
         font-family: $font-secondary-la-note-le-delice-la-palette;
-        font-size: 63px;
+        font-size: 64px;
     }
 }
 
@@ -49,14 +49,14 @@
     background: $color-background-le-chic;
     &__title {
         font-family: $font-primary-le-chic;
-        font-size: 45px;
+        font-size: 44px;
         letter-spacing: 3px;
         margin-bottom: 0;
         @include color-le-chic-title;
     }
     &__big-title {
         color: #c77412;
-        font-size: 65px;
+        font-size: 64px;
         letter-spacing: 5px;
     }
 }
@@ -65,7 +65,7 @@
     background: #f9f9f9;
     &__title {
         font-family: $font-primary-le-delice;
-        font-size: 53px;
+        font-size: 54px;
         font-weight: 300;
         margin-bottom: 10px;
         padding: 0 5px;
@@ -74,7 +74,7 @@
     &__big-title {
         font-family: $font-secondary-la-note-le-delice-la-palette;
         color: #0887fb;
-        font-size: 65px;
+        font-size: 64px;
         font-weight: 300;
     }
 }
@@ -83,7 +83,7 @@
     background: $color-background-la-palette;
     &__title {
         font-family: $font-primary-la-palette;
-        font-size: 52px;
+        font-size: 54px;
         font-weight: 300;
         margin: 80px 0 -20px 0;
         font-weight: normal;
@@ -108,37 +108,37 @@
         font-size: 60px;
     }
     &__title {
-        font-size: 45px;
+        font-size: 44px;
         }
     &__big-title {
-        font-size: 53px;
+        font-size: 54px;
         }
     }
 
     .le-chic {
     &__title {
-        font-size: 35px;
+        font-size: 34px;
     }
     &__big-title {
-        font-size: 55px;
+        font-size: 54px;
         }
     }
 
     .le-delice {
     &__title {
-        font-size: 43px;
+        font-size: 44px;
     }
     &__big-title {
-        font-size: 55px;
+        font-size: 54px;
         }
     }
 
     .la-palette {
     &__title {
-        font-size: 42px;
+        font-size: 44px;
     }
     &__big-title {
-        font-size: 55px;
+        font-size: 54px;
         }
     }
 }
@@ -160,37 +160,37 @@
             font-size: 80px;
         }
         &__title {
-            font-size: 65px;
+            font-size: 64px;
             }
         &__big-title {
-            font-size: 73px;
+            font-size: 74px;
             }
         }
     
     .le-chic {
         &__title {
-            font-size: 55px;
+            font-size: 54px;
         }
         &__big-title {
-            font-size: 55px;
+            font-size: 54px;
             }
         }
     
     .le-delice {
         &__title {
-            font-size: 63px;
+            font-size: 64px;
         }
         &__big-title {
-            font-size: 75px;
+            font-size: 74px;
             }
         }
     
     .la-palette {
         &__title {
-            font-size: 62px;
+            font-size: 64px;
         }
         &__big-title {
-            font-size: 75px;
+            font-size: 74px;
             }
         }
 }
@@ -201,37 +201,37 @@
             font-size: 70px;
         }
         &__title {
-            font-size: 55px;
+            font-size: 54px;
             }
         &__big-title {
-            font-size: 63px;
+            font-size: 64px;
             }
         }
     
     .le-chic {
         &__title {
-            font-size: 45px;
+            font-size: 44px;
         }
         &__big-title {
-            font-size: 65px;
+            font-size: 64px;
             }
         }
     
     .le-delice {
         &__title {
-            font-size: 53px;
+            font-size: 54px;
         }
         &__big-title {
-            font-size: 65px;
+            font-size: 64px;
             }
         }
     
     .la-palette {
         &__title {
-            font-size: 52px;
+            font-size: 54px;
         }
         &__big-title {
-            font-size: 65px;
+            font-size: 64px;
             }
         }
 }
@@ -244,40 +244,40 @@
     }
     .la-note {
         &__music {
-            font-size: 70px;
+            font-size: 60px;
         }
         &__title {
-            font-size: 45px;
+            font-size: 44px;
             }
         &__big-title {
-            font-size: 53px;
+            font-size: 54px;
             }
         }
     
     .le-chic {
         &__title {
-            font-size: 35px;
+            font-size: 34px;
         }
         &__big-title {
-            font-size: 55px;
+            font-size: 54px;
             }
         }
     
     .le-delice {
         &__title {
-            font-size: 43px;
+            font-size: 44px;
         }
         &__big-title {
-            font-size: 55px;
+            font-size: 54px;
             }
         }
     
     .la-palette {
         &__title {
-            font-size: 42px;
+            font-size: 44px;
         }
         &__big-title {
-            font-size: 55px;
+            font-size: 54px;
             }
         }
 }
@@ -290,40 +290,40 @@
     }
     .la-note {
         &__music {
-            font-size: 60px;
+            font-size: 50px;
         }
         &__title {
-            font-size: 35px;
+            font-size: 34px;
             }
         &__big-title {
-            font-size: 43px;
+            font-size: 44px;
             }
         }
     
     .le-chic {
         &__title {
-            font-size: 25px;
+            font-size: 24px;
         }
         &__big-title {
-            font-size: 45px;
+            font-size: 44px;
             }
         }
     
     .le-delice {
         &__title {
-            font-size: 33px;
+            font-size: 34px;
         }
         &__big-title {
-            font-size: 45px;
+            font-size: 44px;
             }
         }
     
     .la-palette {
         &__title {
-            font-size: 32px;
+            font-size: 34px;
         }
         &__big-title {
-            font-size: 45px;
+            font-size: 44px;
             }
         }
 }

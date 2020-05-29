@@ -66,7 +66,6 @@ html, body {
 @media screen and (max-width: 1024px) {
   .btn {
     width: 70%;
-    margin-bottom: 184px;
   }
   .btn__title {
     font-size: 37px;
@@ -76,10 +75,6 @@ html, body {
   }
 }
 @media screen and (max-width: 500px) {
-  .btn {
-    width: 70%;
-    margin-bottom: 184px;
-  }
   .btn__title {
     font-size: 27px;
   }
@@ -95,6 +90,16 @@ html, body {
   margin: 100px 0 55px;
 }
 
+@media screen and (max-width: 700px) {
+  .restaurant-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .restaurant-title {
+    font-size: 30px;
+  }
+}
 .underline-anim__title:hover + .underline-anim__progress {
   transform: scaleX(1);
 }
@@ -166,6 +171,11 @@ html, body {
   margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+  .container-menu {
+    width: 100%;
+  }
+}
 .footer {
   background: #579c87;
   height: 136px;
@@ -205,27 +215,8 @@ html, body {
 }
 @media screen and (max-width: 800px) {
   .footer {
-    background: #579c87;
-    height: 236px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    z-index: 2;
-  }
-  .footer__liseret {
-    background: #a1c181;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-  }
-  .footer__link {
-    font-size: 37px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -233,6 +224,11 @@ html, body {
     font-size: 27px;
   }
 }
+.carte {
+  width: 78.9%;
+  margin: auto;
+}
+
 .menu-cont {
   display: flex;
   justify-content: space-between;
@@ -243,6 +239,12 @@ html, body {
   width: 100%;
   margin-bottom: 135px;
   box-shadow: 0 0 25px #d8d8d8;
+}
+
+.separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-dispo {
@@ -258,23 +260,20 @@ html, body {
 }
 
 .prices {
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 
-.carte {
-  width: 78.9%;
-  margin: auto;
+@media screen and (max-width: 700px) {
+  .menu-cont {
+    flex-direction: column;
+  }
+}
+.menu-dispo p {
+  font-size: 22px;
 }
 
-.head-title {
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-.separation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.prices {
+  margin: 0 0 20px 20px;
 }
 
 .main {
@@ -317,13 +316,13 @@ html, body {
   -webkit-text-fill-color: transparent;
 }
 .la-note__title {
-  font-size: 55px;
+  font-size: 54px;
   font-family: "Cookie", cursive, sans-serif;
   margin: 5px 0 0 0;
 }
 .la-note__big-title {
   font-family: "Kalam", cursive, sans-serif;
-  font-size: 63px;
+  font-size: 64px;
 }
 
 .le-chic {
@@ -331,7 +330,7 @@ html, body {
 }
 .le-chic__title {
   font-family: "Redressed", cursive, sans-serif;
-  font-size: 45px;
+  font-size: 44px;
   letter-spacing: 3px;
   margin-bottom: 0;
   background: -webkit-linear-gradient(290deg, #d8852e 50%, #905bfd 70%);
@@ -340,7 +339,7 @@ html, body {
 }
 .le-chic__big-title {
   color: #c77412;
-  font-size: 65px;
+  font-size: 64px;
   letter-spacing: 5px;
 }
 
@@ -349,7 +348,7 @@ html, body {
 }
 .le-delice__title {
   font-family: "Dancing Script", cursive, sans-serif;
-  font-size: 53px;
+  font-size: 54px;
   font-weight: 300;
   margin-bottom: 10px;
   padding: 0 5px;
@@ -360,7 +359,7 @@ html, body {
 .le-delice__big-title {
   font-family: "Kalam", cursive, sans-serif;
   color: #0887fb;
-  font-size: 65px;
+  font-size: 64px;
   font-weight: 300;
 }
 
@@ -369,7 +368,7 @@ html, body {
 }
 .la-palette__title {
   font-family: "Kaushan Script", cursive, sans-serif;
-  font-size: 52px;
+  font-size: 54px;
   font-weight: 300;
   margin: 80px 0 -20px 0;
   font-weight: normal;
@@ -394,31 +393,31 @@ html, body {
     font-size: 60px;
   }
   .la-note__title {
-    font-size: 45px;
+    font-size: 44px;
   }
   .la-note__big-title {
-    font-size: 53px;
+    font-size: 54px;
   }
 
   .le-chic__title {
-    font-size: 35px;
+    font-size: 34px;
   }
   .le-chic__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 
   .le-delice__title {
-    font-size: 43px;
+    font-size: 44px;
   }
   .le-delice__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 
   .la-palette__title {
-    font-size: 42px;
+    font-size: 44px;
   }
   .la-palette__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -437,31 +436,31 @@ html, body {
     font-size: 80px;
   }
   .la-note__title {
-    font-size: 65px;
+    font-size: 64px;
   }
   .la-note__big-title {
-    font-size: 73px;
+    font-size: 74px;
   }
 
   .le-chic__title {
-    font-size: 55px;
+    font-size: 54px;
   }
   .le-chic__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 
   .le-delice__title {
-    font-size: 63px;
+    font-size: 64px;
   }
   .le-delice__big-title {
-    font-size: 75px;
+    font-size: 74px;
   }
 
   .la-palette__title {
-    font-size: 62px;
+    font-size: 64px;
   }
   .la-palette__big-title {
-    font-size: 75px;
+    font-size: 74px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -469,31 +468,31 @@ html, body {
     font-size: 70px;
   }
   .la-note__title {
-    font-size: 55px;
+    font-size: 54px;
   }
   .la-note__big-title {
-    font-size: 63px;
+    font-size: 64px;
   }
 
   .le-chic__title {
-    font-size: 45px;
+    font-size: 44px;
   }
   .le-chic__big-title {
-    font-size: 65px;
+    font-size: 64px;
   }
 
   .le-delice__title {
-    font-size: 53px;
+    font-size: 54px;
   }
   .le-delice__big-title {
-    font-size: 65px;
+    font-size: 64px;
   }
 
   .la-palette__title {
-    font-size: 52px;
+    font-size: 54px;
   }
   .la-palette__big-title {
-    font-size: 65px;
+    font-size: 64px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -504,34 +503,34 @@ html, body {
   }
 
   .la-note__music {
-    font-size: 70px;
+    font-size: 60px;
   }
   .la-note__title {
-    font-size: 45px;
+    font-size: 44px;
   }
   .la-note__big-title {
-    font-size: 53px;
+    font-size: 54px;
   }
 
   .le-chic__title {
-    font-size: 35px;
+    font-size: 34px;
   }
   .le-chic__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 
   .le-delice__title {
-    font-size: 43px;
+    font-size: 44px;
   }
   .le-delice__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 
   .la-palette__title {
-    font-size: 42px;
+    font-size: 44px;
   }
   .la-palette__big-title {
-    font-size: 55px;
+    font-size: 54px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -542,34 +541,34 @@ html, body {
   }
 
   .la-note__music {
-    font-size: 60px;
+    font-size: 50px;
   }
   .la-note__title {
-    font-size: 35px;
+    font-size: 34px;
   }
   .la-note__big-title {
-    font-size: 43px;
+    font-size: 44px;
   }
 
   .le-chic__title {
-    font-size: 25px;
+    font-size: 24px;
   }
   .le-chic__big-title {
-    font-size: 45px;
+    font-size: 44px;
   }
 
   .le-delice__title {
-    font-size: 33px;
+    font-size: 34px;
   }
   .le-delice__big-title {
-    font-size: 45px;
+    font-size: 44px;
   }
 
   .la-palette__title {
-    font-size: 32px;
+    font-size: 34px;
   }
   .la-palette__big-title {
-    font-size: 45px;
+    font-size: 44px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -641,17 +640,16 @@ html, body {
 .section-la-note {
   margin-top: 85px;
 }
-.section-la-note h3 {
-  font-size: 40px;
-}
 
 .la-note-separation {
   margin-bottom: 30px;
+  text-align: center;
 }
 .la-note-separation img {
   width: 32%;
 }
 .la-note-separation h3 {
+  font-size: 40px;
   margin: 0;
 }
 
@@ -679,6 +677,68 @@ html, body {
   font-size: 65px;
 }
 
+@media screen and (max-width: 1024px) {
+  .la-note-separation img {
+    width: 30%;
+  }
+  .la-note-separation h3 {
+    font-size: 35px;
+  }
+
+  .foot-la-note__music {
+    font-size: 65px;
+  }
+  .foot-la-note__title {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .head-la-note__music {
+    font-size: 85px;
+  }
+  .head-la-note__title {
+    font-size: 55px;
+  }
+
+  .la-note-separation img {
+    width: 20%;
+  }
+  .la-note-separation h3 {
+    font-size: 30px;
+  }
+
+  .foot-la-note__music {
+    font-size: 45px;
+  }
+  .foot-la-note__title {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .head-la-note__music {
+    font-size: 65px;
+  }
+  .head-la-note__title {
+    font-size: 45px;
+  }
+
+  .la-note-separation img {
+    width: 0%;
+  }
+  .la-note-separation h3 {
+    font-size: 30px;
+  }
+
+  .foot-la-note {
+    flex-direction: column;
+  }
+  .foot-la-note__music {
+    font-size: 45px;
+  }
+  .foot-la-note__title {
+    font-size: 45px;
+  }
+}
 .menu-le-chic {
   background: #fff5fe;
 }
