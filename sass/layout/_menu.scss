@@ -39,19 +39,20 @@
 }
 
 .prices{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 30px;
 }
 
 @media screen and (max-width: 700px) {
   .menu-cont {
     flex-direction: column;
+    text-align: center;
   }
-}
 
-.menu-dispo p {
+  .menu-dispo p {
   font-size: 22px;
-}
+  }
 
-.prices{
-  margin: 0 0 20px 20px;
+  .prices{
+    margin: 0 0 20px 30px;
+  }
 }
