@@ -16,15 +16,14 @@
     margin-bottom: 84px;
     &__title {
         font-family: $font-primary;
-        font-size: 47px;
+        font-size: 40px;
     }
     &__load {
         width: 8%;
-        font-size: 70px;
+        font-size: 60px;
         display: flex;
-        margin: 0 0 0 15px;
+        margin: 0 0 15px 15px;
         &__point {
-            margin-bottom: 13px;
             animation: points 1500ms infinite;
             animation-direction: alternate;
             @for $i from 1 through 3 {
@@ -45,11 +44,13 @@
         }
         &__load {
             font-size: 50px;
+            margin: 0 0 5px 15px;
         }
     }
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 600px) {
     .btn {
         height: 80px;
         &__title {
@@ -57,6 +58,21 @@
         }
         &__load {
             font-size: 40px;
+            margin: 0 0 10px 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn {
+        height: 50px;
+        border-radius: 10px;
+        &__title {
+            font-size: 17px;
+        }
+        &__load {
+            font-size: 30px;
+            margin: 0 0 10px 5px;
         }
     }
 }

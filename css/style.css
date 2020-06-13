@@ -39,16 +39,15 @@ html, body {
 }
 .btn__title {
   font-family: Montserrat, sans-serif;
-  font-size: 47px;
+  font-size: 40px;
 }
 .btn__load {
   width: 8%;
-  font-size: 70px;
+  font-size: 60px;
   display: flex;
-  margin: 0 0 0 15px;
+  margin: 0 0 15px 15px;
 }
 .btn__load__point {
-  margin-bottom: 13px;
   animation: points 1500ms infinite;
   animation-direction: alternate;
 }
@@ -71,9 +70,10 @@ html, body {
   }
   .btn__load {
     font-size: 50px;
+    margin: 0 0 5px 15px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .btn {
     height: 80px;
   }
@@ -82,6 +82,20 @@ html, body {
   }
   .btn__load {
     font-size: 40px;
+    margin: 0 0 10px 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn {
+    height: 50px;
+    border-radius: 10px;
+  }
+  .btn__title {
+    font-size: 17px;
+  }
+  .btn__load {
+    font-size: 30px;
+    margin: 0 0 10px 5px;
   }
 }
 .restaurant-title {
